@@ -1,0 +1,419 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: monospace;
+  }
+  
+  #menu {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #023859;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.5rem;
+  }
+
+  #main-doc {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav a {
+    color: #B0C1D9;
+  }
+
+  .nav {
+    padding-right: 8px;
+  }
+
+  .nav-link a {
+    color: #B0C1D9;
+  }
+
+  .nav-link:visited {
+    color: #B0C1D9;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+  #name {
+    padding-right: 8px;
+  }
+
+  #navbarToggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .navShow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header {
+    background-color: #73513D;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header a {
+    color: #B0C1D9;
+  }
+
+  ul li {
+    margin-top: 10px;
+  }
+
+  pre {
+
+  }
+
+  code {
+    color: #B0C1D9;
+    display: block;
+    white-space: pre-line;
+    margin-left: 15px;
+    background-color: #023859;
+    padding-bottom: 9px;
+    margin-right: 15px;
+    padding-left: 10px;
+  }
+
+  .title {
+    margin: 0 auto;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .backToTop {
+    padding-right: 5px;
+    font-size: 75%;
+    font-weight: normal;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: monospace;
+  }
+  
+  #menu {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #023859;
+    padding: 16px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.5rem;
+  }
+
+  #main-doc {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav a {
+    color: #B0C1D9;
+  }
+
+  .nav {
+    padding-right: 8px;
+  }
+
+  .nav-link a {
+    color: #B0C1D9;
+  }
+
+  .nav-link:visited {
+    color: #B0C1D9;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+  #name {
+    padding-right: 8px;
+  }
+
+  #navbarToggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .navShow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header {
+    background-color: #73513D;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header a {
+    color: #B0C1D9;
+  }
+
+  ul li {
+    margin-top: 10px;
+  }
+
+  code {
+    color: #B0C1D9;
+    display: block;
+    white-space: pre-line;
+    margin-left: 15px;
+    background-color: #023859;
+    padding-bottom: 9px;
+    margin-right: 15px;
+    padding-left: 10px;
+  }
+
+  .title {
+    margin: 0 auto;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .backToTop {
+    padding-right: 5px;
+    font-size: 75%;
+    font-weight: normal;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: monospace;
+  }
+  
+  #menu {
+    display: flex;
+    align-items: center;
+    background-color: #023859;
+    padding: 16px;
+    color: white;
+  }
+
+  #main-doc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+  }
+
+  #sideMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-start;
+    width: 45%;    
+    line-height: 1.5rem;
+  }
+
+  #sideBarTitle {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .fixed {
+    position: fixed;
+    background-color: #03588C;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
+  }
+
+  #mainContent {
+    width: 80%;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav a {
+    color: #B0C1D9;
+  }
+
+  .nav {
+    padding-right: 8px;
+  }
+
+  .nav-link a {
+    color: #B0C1D9;
+  }
+
+  .nav-link:visited {
+    color: #B0C1D9;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+  #name {
+    padding-right: 8px;
+  }
+
+  #navbarToggle {
+    display: none;
+  }
+
+  .navShow {
+    display: none;
+  }
+
+  header {
+    background-color: #73513D;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header a {
+    color: #B0C1D9;
+  }
+
+  ul li {
+    margin-top: 10px;
+  }
+
+  pre {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  code {
+    color: #B0C1D9;
+    display: block;
+    white-space: pre-line;
+    margin-left: 15px;
+    background-color: #023859;
+    padding-bottom: 9px;
+    margin-right: 15px;
+    padding-left: 10px;
+  }
+
+  .title {
+    margin: 0 auto;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .backToTop {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
